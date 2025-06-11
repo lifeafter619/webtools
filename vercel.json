@@ -1,7 +1,5 @@
 {
   "functions": {
-    "[[...category]]": {
       "includeFiles": "static/content/*"
-    }
   }
 }
