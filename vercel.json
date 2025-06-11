@@ -1,7 +1,8 @@
 {
   "functions": {
-     "[[...category]]":  {
-       "includeFiles": "static/content/*"
-     }
-  }
+    "app/src/pages/**/*": { "memory": 1024 }
+  },
+  "routes": [
+    { "src": "/.*", "dest": "/index.html" }
+  ]
 }
