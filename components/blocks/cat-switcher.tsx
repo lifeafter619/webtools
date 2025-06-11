@@ -26,28 +26,28 @@ const iconClass = cn(
 
 const tabs = [
   {
-    name: "Starter Kits",
+    name: "ababababbaa",
     href: "/starter-kit",
     category: "/starter-kit",
     icon: <IconRocket className={iconClass} />,
     classes: "bg-yellow-500/50 dark:bg-yellow-700",
   },
   {
-    name: "Design Kits",
+    name: "asdasdsfasdfa",
     href: "/design-kit",
     category: "/design-kit",
     icon: <IconArtboard className={iconClass} />,
     classes: "bg-purple-500/50 dark:bg-purple-800",
   },
   {
-    name: "UI Components",
+    name: "fadfdfcxv",
     href: "/ui-component",
     category: "/ui-component",
     icon: <IconComponents className={iconClass} />,
     classes: "bg-blue-500/50 dark:bg-blue-800",
   },
   {
-    name: "AI tools",
+    name: "asfxzfz",
     href: "/ai",
     category: "/ai",
     icon: (
@@ -74,7 +74,7 @@ const tabs = [
     classes: "bg-red-500/50 dark:bg-red-800",
   },
   {
-    name: "Dev tools",
+    name: "zxcxzcxzcdvfvc",
     href: "/dev",
     category: "/dev",
     icon: <IconTerminal2 className={iconClass} />,
