@@ -11,9 +11,9 @@ import { config } from "@keystatic/core";
 export default config({
   ui: {
     brand: {
-      name: "smashing.tools",
+      name: "619の工具推荐",
       mark: () => {
-        return <img id="keystatic-logo" src="/logo.svg" alt="smashing.tools" />;
+        return <img id="keystatic-logo" src="/logo.svg" alt="619の工具推荐" />;
       },
     },
     navigation: {

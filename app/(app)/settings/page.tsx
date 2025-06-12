@@ -10,8 +10,8 @@ import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
 
 export const metadata = constructMetadata({
-  title: "Settings",
-  description: "Your settings for smashing.tools",
+  title: "设置",
+  description: "你在619の工具推荐的设置",
 });
 
 export default async function SettingsPage() {

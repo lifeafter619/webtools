@@ -3,4 +3,4 @@ Allow: /
 Disallow: /settings/
 Disallow: /bookmarks/
 
-Sitemap: https://smashing.tools/sitemap.xml
+Sitemap: https://web.moe.us.kg/sitemap.xml

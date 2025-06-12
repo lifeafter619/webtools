@@ -84,12 +84,9 @@ export default async function RootLayout({
 
                   <p className="pl-5 pr-5">
                     <span className="font-semibold flex mb-1">
-                      Affiliate Link Disclosure
+                      Deployed with ❤️ by 619.
                     </span>
-                    Some links on this website are affiliate links, meaning if
-                    you click on them and make a purchase, we may receive a
-                    commission. This supports smashing.tools, enabling us to
-                    keep delivering quality content. Thanks for your support!
+                    这是619の工具小推荐，喜欢的话记得收藏🌟(我做了好久才让你们看到这么好看的UIwwwww....)
                   </p>
                 </div>
               </div>

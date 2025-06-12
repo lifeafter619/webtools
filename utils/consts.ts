@@ -1,56 +1,56 @@
-export const SITE_TITLE = "smashing.tools";
+export const SITE_TITLE = "619の工具推荐";
 export const SITE_DESCRIPTION =
-  "Curated best starter kits, UI components, design kits, AI & Dev tools";
-export const EMAIL_FROM = "smashing.tools <hi@smashing.tools>";
+  "推荐一些我喜欢的特殊工具";
+export const EMAIL_FROM = "619 <mail@66619.eu.org>";
 export const NEWSLETTER_CONFIRM_RESEND_INTERVAL_MINUTES = 0.5;
 export const CATEGORIES = [
   {
     category: null,
     slug: "/",
-    title: "All tools",
-    seoTitle: "smashing.tools",
+    title: "全部工具",
+    seoTitle: "全部工具 - 619の工具推荐",
     collection: "all",
   },
   {
     category: "starter-kit",
     slug: "/starter-kit",
     title: "Starter Kit",
-    seoTitle: "Starter kits - smashing.tools",
+    seoTitle: "Starter kits - 619の工具推荐",
     collection: "starterKit",
   },
   {
     category: "design-kit",
     slug: "/design-kit",
     title: "Design Kit",
-    seoTitle: "Design kits - smashing.tools",
+    seoTitle: "Design kits - 619の工具推荐",
     collection: "designKit",
   },
   {
     category: "ui-component",
     slug: "/ui-component",
     title: "UI Component",
-    seoTitle: "UI components - smashing.tools",
+    seoTitle: "UI components - 619の工具推荐",
     collection: "uiComponent",
   },
   {
     category: "ai",
     slug: "/ai",
     title: "AI Tool",
-    seoTitle: "AI tools - smashing.tools",
+    seoTitle: "AI tools - 619の工具推荐",
     collection: "ai",
   },
   {
     category: "dev",
     slug: "/dev",
     title: "Dev Tool",
-    seoTitle: "Dev tools - smashing.tools",
+    seoTitle: "Dev tools - 619の工具推荐",
     collection: "dev",
   },
   {
     category: "post",
     slug: "/post",
     title: "Post",
-    seoTitle: "Posts - smashing.tools",
+    seoTitle: "Posts - 619の工具推荐",
     collection: "post",
   },
 ] as const;

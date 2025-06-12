@@ -6,7 +6,7 @@ import { GeistSans } from "geist/font/sans";
 import "../globals.css";
 
 export const metadata = constructMetadata({
-  title: "Join - smashing.tools",
+  title: "加入 - 619の工具推荐",
   canonical: "/join",
 });
 

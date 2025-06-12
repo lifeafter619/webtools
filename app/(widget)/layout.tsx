@@ -5,7 +5,7 @@ import { GeistSans } from "geist/font/sans";
 import "../globals.css";
 
 export const metadata = constructMetadata({
-  title: "Widget - smashing.tools",
+  title: "Widget - 619の工具推荐",
   canonical: "/widget",
 });
 

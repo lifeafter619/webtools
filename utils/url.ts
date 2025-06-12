@@ -5,5 +5,5 @@ export const getBaseUrl = (): string => {
   if (process.env.NODE_ENV === "development") {
     return "http://localhost:3000";
   }
-  return "https://smashing.tools";
+  return "https://web.moe.us.kg";
 };

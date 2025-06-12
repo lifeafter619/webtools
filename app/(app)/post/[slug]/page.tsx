@@ -26,7 +26,7 @@ export async function generateMetadata({
   }
 
   return constructMetadata({
-    title: `${item?.name} - smashing.tools`,
+    title: `${item?.name} - 619の工具推荐`,
     description: `${item.name} - ${item.headline}`,
     canonical: `post/${slug}`,
   });
@@ -72,7 +72,7 @@ export default async function PostDetail({ params: { slug } }: Props) {
   const makerData = await KEYSTATIC.entry.profile(relatedItem.maker);
 
   const readmore = new URL(item.readmoreUrl || "");
-  readmore.searchParams.append("ref", "smashing.tools");
+  readmore.searchParams.append("ref", "web.moe.us.kg");
 
   return (
     <div>
@@ -211,11 +211,11 @@ export default async function PostDetail({ params: { slug } }: Props) {
               </div>
             )}
             <Link
-              href={`https://github.com/smashing-team/smashing.tools/issues/new?assignees=&labels=type%3A+content+feedback&projects=&template=03-content.yml&title=%F0%9F%93%9D+Content+Feedback%3A+${item.name}`}
+              href={`https://66619.eu.org`}
               className="mt-2 text-xs text-zinc-400 no-underline hover:underline dark:text-zinc-500"
               target="_blank"
             >
-              Something not right about this content? Let us know!
+              点我，去619的博客主页看看~
             </Link>
           </article>
         </main>

@@ -18,7 +18,7 @@ export function Header() {
         <Link href="/" className="shrink-0 rounded-full shadow-lg">
           <Image
             src="/smashing-tools-icon-v2-dark.svg"
-            alt="smashing.tools"
+            alt="619の工具推荐"
             className="mx-auto block size-10 dark:hidden"
             width={40}
             height={40}
@@ -27,7 +27,7 @@ export function Header() {
           />
           <Image
             src="/smashing-tools-icon-v2.svg"
-            alt="smashing.tools"
+            alt="619の工具推荐"
             width={40}
             height={40}
             className="mx-auto hidden size-10 dark:block"

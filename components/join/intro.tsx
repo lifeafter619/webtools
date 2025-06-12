@@ -33,7 +33,7 @@ export function Intro() {
             src="/logo.svg"
             width={80}
             height={80}
-            alt="Logo of smashing.tools"
+            alt="619の工具推荐"
             sizes="(min-width: 1024px) 20rem, (min-width: 640px) 16rem, 12rem"
           />
         </Link>

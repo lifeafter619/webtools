@@ -10,8 +10,8 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 
 export const metadata = constructMetadata({
-  title: "Bookmarks",
-  description: "Your bookmarks on smashing.tools",
+  title: "收藏夹",
+  description: "你的收藏",
 });
 
 export default async function BookmarksPage() {

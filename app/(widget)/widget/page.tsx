@@ -10,7 +10,7 @@ export default async function Widget() {
           width={318}
           height={159}
           src="/og.png"
-          alt="smashing.tools"
+          alt="619の工具推荐"
         />
         <div className="p-2 px-3">
           <h5 className="mb-2 text-lg font-bold tracking-tight text-white">

@@ -19,7 +19,7 @@ export async function generateMetadata({
   }
 
   return constructMetadata({
-    title: `${item?.name} - smashing.tools`,
+    title: `${item?.name} - 619の工具推荐`,
     description: `${item.name} - ${item.bio}`,
     canonical: `profile/${slug}`,
   });
@@ -68,7 +68,7 @@ export default async function ProfileDetail({ params: { slug } }: Props) {
               <div className="flex items-center gap-4">
                 {item.twitter && (
                   <Link
-                    href={`https://twitter.com/${item.twitter}?ref=smashing.tools`}
+                    href={`https://twitter.com/${item.twitter}`}
                     className="inline-flex items-center gap-1 text-sm text-zinc-500 hover:underline dark:text-zinc-400"
                   >
                     <svg
@@ -94,7 +94,7 @@ export default async function ProfileDetail({ params: { slug } }: Props) {
                 )}
                 {item.github && (
                   <Link
-                    href={`https://github.com/${item.github}?ref=smashing.tools`}
+                    href={`https://github.com/${item.github}`}
                     className="inline-flex items-center gap-1 text-sm text-zinc-500 hover:underline dark:text-zinc-400"
                   >
                     <IconBrandGithub
@@ -107,7 +107,7 @@ export default async function ProfileDetail({ params: { slug } }: Props) {
                 {item.website && (
                   <Link
                     target="_blank"
-                    href={`${item.website}?ref=smashing.tools`}
+                    href={`${item.website}`}
                     className="inline-flex items-center gap-1 text-sm text-zinc-500 hover:underline dark:text-zinc-400"
                   >
                     {item.website}

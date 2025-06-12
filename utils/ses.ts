@@ -41,7 +41,7 @@ export const sendEmail = async (
 const siteUrl =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3000"
-    : "https://smashing.tools";
+    : "https://web.moe.us.kg";
 
 export const sendConfirmationEmail = async (
   toAddress: string,
@@ -68,7 +68,7 @@ export const sendConfirmationEmail = async (
     <p><a target="_blank" rel="noopener noreferrer nofollow" href="${confirmLink}">${confirmLink}</a></p>
     <p>We don't send spam, and you can unsubscribe at any time.</p>
     <hr>
-    <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://smashing.tools">smashing.tools</a></p>
+    <p><a target="_blank" rel="noopener noreferrer nofollow" href="https://66619.eu.org">619の博客</a></p>
 </body>
 </html>
 `;

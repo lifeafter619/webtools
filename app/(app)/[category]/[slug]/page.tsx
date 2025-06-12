@@ -44,7 +44,7 @@ export async function generateMetadata({
   }
 
   return constructMetadata({
-    title: `${item?.name} - smashing.tools`,
+    title: `${item?.name} - 619の工具推荐`,
     description: `${item.name} - ${item.headline}`,
     image: `og-image/${category}/${slug}`,
     canonical: `${category}/${slug}`,
@@ -81,15 +81,15 @@ export default async function ToolDetail({
   const hasDarkLogo = !!item.logoDark;
 
   const websiteUrl = new URL(item.url);
-  websiteUrl.searchParams.append("ref", "smashing.tools");
+  websiteUrl.searchParams.append("ref", "web.moe.us.kg");
 
   // @ts-ignore
   const repoUrl = item?.repositoryUrl ? new URL(item.repositoryUrl) : undefined;
-  repoUrl?.searchParams.append("ref", "smashing.tools");
+  repoUrl?.searchParams.append("ref", "web.moe.us.kg");
 
   // @ts-ignore
   const prevUrl = item.previewUrl ? new URL(item.previewUrl) : undefined;
-  prevUrl?.searchParams.append("ref", "smashing.tools");
+  prevUrl?.searchParams.append("ref", "web.moe.us.kg");
 
   const allTags = (Object.entries(item.attrs) as [string, string[]][])
     .map(([key, value]) => value?.map((v) => [key, v]))
@@ -270,11 +270,11 @@ export default async function ToolDetail({
               </div>
             )}
             <Link
-              href={`https://github.com/smashing-team/smashing.tools/issues/new?assignees=&labels=type%3A+content+feedback&projects=&template=03-content.yml&title=%F0%9F%93%9D+Content+Feedback%3A+${item.name}`}
+              href={`https://66619.eu.org`}
               className="mt-2 text-xs text-zinc-400 no-underline hover:underline dark:text-zinc-500"
               target="_blank"
             >
-              Something not right about this content? Let us know!
+              点我去看看619的博客好不好....求求辣
             </Link>
           </article>
         </main>
